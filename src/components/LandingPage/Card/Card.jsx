@@ -23,7 +23,9 @@ function Card(props) {
     setIsLoading(true);
     if(quickSearch){fetchDataByFilter(quickSearch)}
     else if (searchData){fetchDataBySearchParam(searchData);}
-    else{fetchData();}
+    else {
+      fetchData();
+    }
     setSearchData('')
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[quickSearch, searchData])

@@ -49,16 +49,20 @@ function Host() {
           </SliderComponent> 
         </div>
       </div>
-    )}  else {
+      )
+    } else {
+      
       navigate('/login', {state: {from: location}})
       return null;
     }
     }
 
   return (
+    <>
     <div>
       {handleComponentRender()}
-    </div>
+      </div>
+    </>
   )
 }
 

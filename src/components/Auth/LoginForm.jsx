@@ -21,8 +21,8 @@ const LoginForm = () => {
   const {values, errors, touched, handleBlur, handleChange, handleSubmit} = useFormik({
     initialValues,
     validationSchema: loginSchema,
-    onSubmit: async (values, {resetForm}) => {
-      loginUserAirbnb(values, resetForm)
+    onSubmit : async (values, {resetForm}) => {
+      loginUserAirbnb(values,  resetForm )
     }
   })
   const {setAuth } = useAuth();
