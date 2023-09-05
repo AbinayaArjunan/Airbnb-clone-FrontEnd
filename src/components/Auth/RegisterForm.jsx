@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import './register.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
-import { registerSchema } from '../../schemas';
+import { registerSchema } from '../../schemas/register';
 import { showNotification } from '../../assets/alerts/sweetAlert';
 import AuthContext from '../../context/AuthProvider';
 import { axiosNormal } from '../../services/axios';

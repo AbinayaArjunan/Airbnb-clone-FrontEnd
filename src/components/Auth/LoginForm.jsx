@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './login.css'; 
 import { useLocation, useNavigate } from 'react-router-dom';
 import {useFormik } from 'formik';
-import { loginSchema } from '../../schemas';
+import { loginSchema } from '../../schemas/index';
 import {showNotification} from '../../assets/alerts/sweetAlert';
 import useAuth from '../../hooks/useAuth';
 import { axiosNormal } from '../../services/axios';
