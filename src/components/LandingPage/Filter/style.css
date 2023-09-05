@@ -16,7 +16,7 @@
 .quick-filter-div{
   display: flex;
   width: 80%;
-  overflow-X: hidden;
+  overflow: hidden;
   padding:0 2rem;
   justify-content: flex-start;
   align-items: center;
