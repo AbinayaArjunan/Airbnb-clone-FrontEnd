@@ -47,12 +47,12 @@ function Filter(props) {
           {links.map(mapData)}
         </div>
         <div onClick={slideDataLeft} className='filter-scroll-arrow filter-arrow-right'> <ArrowBackIosNewIcon sx={{fontSize:"1rem"}}/></div> 
-        <div className='addition-filters'>
-          <p><TuneIcon sx={{fontSize:"1rem", display:"flex", alignItems:"center"}}></TuneIcon></p>
+         <div className='addition-filters'> 
+          <p><TuneIcon sx={{fontSize:"1rem", display:"flex", alignItems:"center"}}></TuneIcon></p> 
           <p>Filters</p>
-        </div>
+        </div> 
       </div>
   )
 }
 
-export default Filter
+export default Filter;
