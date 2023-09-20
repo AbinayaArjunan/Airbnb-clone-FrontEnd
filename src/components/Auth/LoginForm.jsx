@@ -5,7 +5,7 @@ import {useFormik } from 'formik';
 import { loginSchema } from '../../schemas/index';
 import {showNotification} from '../../assets/alerts/sweetAlert';
 import useAuth from '../../hooks/useAuth';
-import { axiosNormal } from '../../services/axios';
+import { axiosNormal } from '../../Axios/axios';
 import SpinLoader from '../../assets/spinner/spinner'
 
 const initialValues = {

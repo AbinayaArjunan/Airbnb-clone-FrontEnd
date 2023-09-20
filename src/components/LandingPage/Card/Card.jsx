@@ -4,7 +4,7 @@ import SpinLoader  from '../../../assets/spinner/spinner';
 import Filter from "../Filter";
 import { useNavigate } from 'react-router-dom';
 import CardSlider from '../../../assets/Slider/CardSlider';
-import { axiosNormal } from '../../../services/axios';
+import { axiosNormal } from '../../../Axios/axios';
 import { SearchDataContext } from '../../../context/SearchDataProvider';
 
 function Card(props) {

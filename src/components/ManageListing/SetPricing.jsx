@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Grid, Paper, Button, Dialog, DialogTitle, DialogContent, DialogActions, TextField } from '@mui/material';
-import { axiosPrivate } from '../../services/axios';
+import { axiosPrivate } from '../../Axios/axios';
 import { showNotification } from '../../assets/alerts/sweetAlert';
 import BarLoader from '../../assets/spinner/BarLoader';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
